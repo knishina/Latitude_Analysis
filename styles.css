@@ -151,3 +151,15 @@
 	border-style: solid;
 	border-color: #7FB3D5;
 }
+
+.box4{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
+	border-width: 50px;
+	border-bottom-width: 70px;
+	border-style: solid;
+	border-color: #7FB3D5;
+}
