@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Latitude Analysis</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="navbar fixed-top navbar-light bg-light col-lg-12 col-sm-12 absolute" id = "grad">
+			<a class="btn btn-outline-secondary" href="index.html"><img src="Resources/home.png" width=75% height=auto role="button"></a>
+			<container class="white_text" id="sbox">Latitude Analysis</container>
+			<container class="col-lg-7 col-sm-5 blankbox"></container>
+			<container class="dropdown">
+				<button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="humidity.html">Humidity</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+				</div>
+			<a class="btn btn-outline-secondary" href="comparisons.html" role="button">Comparison</a>
+			<a class="btn btn-outline-secondary" href="data.html" role="button">Data</a>
+		</container>
+		</div>
+	</div>
+	
+	
+	<div class="col-lg-10 col-sm-10 absolute" id="mbox">
+		<p class="black">Comparison</p>
+		<hr>
+		<p><em>Click any plot to see an in-depth analysis.</em></p>
+		<br/>
+		<br/>
+		<div id="carouselExampleIndicators" class="carousel slide absolute" data-ride="carousel">
+  			<ol class="carousel-indicators">
+    			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+   				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+   				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+   				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  			</ol>
+  			<div class="carousel-inner">
+    			<div class="carousel-item active blue">
+    				<a href="max_temp.html">
+	      				<img class="box2" src="Resources/Figure1.png" alt="Max Temperature"></a>
+	      			<div class="carousel-caption d-none d-md-block">Max Temperature</div>
+    			</div>
+   				<div class="carousel-item blue">
+   					<a href="humidity.html">
+     					<img class="box2" src="Resources/Figure2.png" alt="Humidity"></a>
+     				<div class="carousel-caption d-none d-md-block">Humidity</div>
+   				</div>
+    			<div class="carousel-item blue">
+    				<a href="cloudiness.html">
+	      				<img class="box2" src="Resources/Figure3.png" alt="Cloudiness"></a>
+	      			<div class="carousel-caption d-none d-md-block">Cloudiness</div>
+    			</div>
+    			<div class="carousel-item blue">
+    				<a href="wind_speed.html">
+	      				<img class="box2" src="Resources/Figure4.png" alt="Wind Speed"></a>
+	      			<div class="carousel-caption d-none d-md-block">Wind Speed</div>
+    			</div>
+    			<div class="carousel-item blue">
+    				<a href="combo.html">
+	      				<img class="box2" src="Resources/Figure5.png" height=25% width=25% alt="Combo"></a>
+	      			<div class="carousel-caption d-none d-md-block">Comparisons</div>
+    			</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+ 			</a>
+ 			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+   				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+	</div>
+
+	<div class="blankbox col-lg-12"></div>
+	<div class="blankbox col-lg-12"></div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+	<div class="container col-lg-12" id="grad_blue">2018 Data Analytics BootCamp</div>
+</footer>
+
+
+</html>

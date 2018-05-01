@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Latitude Analysis</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="navbar fixed-top navbar-light bg-light col-lg-12 col-sm-12 absolute" id = "grad">
+			<a class="btn btn-outline-secondary" href="index.html"><img src="Resources/home.png" width=75% height=auto role="button"></a>
+			<container class="white_text" id="sbox">Latitude Analysis</container>
+			<container class="col-lg-7 col-sm-5 blankbox"></container>
+			<container class="dropdown">
+				<button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="humidity.html">Humidity</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+				</div>
+			<a class="btn btn-outline-secondary" href="comparisons.html" role="button">Comparison</a>
+			<a class="btn btn-outline-secondary" href="data.html" role="button">Data</a>
+		</container>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-6" id="mbox">
+			<p class="black">Cloudiness</p>
+			<img class="bbox" src="Resources/Figure3.png">
+			<br/>
+			<br/>
+			<hr>
+			<p class="col-lg-12">The cloud cover for each city was recorded as a percentage and was then graphed relative to the city's latitude.  Results are found in the scatter plot above.</p>
+			<p class="col-lg-12">There a very loose correlation of cloudiness v. latitude.  However, there does seem to be a  correlation between cloudiness and humidity.  As humidity increases, cloudiness increases.  This makes sense based on how clouds form.  Clouds form due to particulate matter in the air combined with water vapor.  Generally, clouds get larger/greater in number with proportional to in humidity (or water vapor in the atmosphere).  Assuming a homogeneous mixture of particulate matter in the atmosphere, coupled with the fact that there is greater humidity in the northern hemisphere, it makes sense that there is a higher percentage of observable clouds in the northern hemisphere.</p>
+		</div>
+		<div id="mmbox">
+			<p class="black">Visualizations</p>
+			<div class="absolute" id="bluebox">
+				<div class="container">
+					<a href="Resources/Figure1.png" target="_blank">
+						<img class="box image" src="Resources/Figure1.png" alt="Max Temperature"></a>
+						<div class="middle col-lg-10">
+							<div class="text">Max Temperature</div></div>
+				</div>
+				<br/>
+				<br/>
+				<div class="container">
+					<a href="Resources/Figure2.png" target="_blank">
+						<img class="box image" src="Resources/Figure2.png" alt="Humidity"></a>
+						<div class="middle col-lg-10">
+							<div class="text">Humidity</div></div>
+				</div>
+				<br/>
+				<br/>
+				<div class="container">
+					<a href="Resources/Figure3.png" target="_blank">
+						<img class="box image" src="Resources/Figure3.png" alt="Cloudiness"></a>
+						<div class="middle col-lg-10">
+							<div class="text">Cloudiness</div></div>
+				</div>
+				<br/>
+				<br/>
+				<div class="container">
+					<a href="Resources/Figure4.png" target="_blank">
+						<img class="box image" src="Resources/Figure4.png" alt="Wind Speed"></a>
+						<div class="middle col-lg-10">
+							<div class="text">Wind Speed</div></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="blankbox col-lg-12"></div>
+	<div class="blankbox col-lg-12"></div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+	<div class="container col-lg-12" id="grad_blue">2018 Data Analytics BootCamp</div>
+</footer>
+
+
+</html>
