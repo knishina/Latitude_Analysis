@@ -6,13 +6,32 @@
 	<title>Latitude Analysis</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+<style>
+div .right-header{
+	float:right;
+}
+
+
+.btn-outline-secondary{
+	float:left;
+}
+
+
+</style>
+
+
+
 </head>
 
 <body>
 	<div class="navbar fixed-top navbar-light bg-light col-lg-12 col-sm-12 absolute" id = "grad">
+		<div class = 'left-header'>
 			<a class="btn btn-outline-secondary" href="index.html"><img src="Resources/home.png" width=75% height=auto role="button"></a>
 			<container class="white_text" id="sbox">Latitude Analysis</container>
-			<container class="col-lg-7 col-sm-5 blankbox"></container>
+		</div>
+		<div class = 'right-header'>
 			<container class="dropdown">
 				<button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</button>
 				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -26,7 +45,7 @@
 				</div>
 			<a class="btn btn-outline-secondary" href="comparisons.html" role="button">Comparison</a>
 			<a class="btn btn-outline-secondary" href="data.html" role="button">Data</a>
-		</container>
+			</container>
 		</div>
 	</div>
 	

@@ -4,8 +4,8 @@
 	height: 50px;
 	background: #1A5276;
 	padding: 10px;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	float:left;
 }
 
 .white_text{
@@ -13,6 +13,8 @@
 	font-weight: bold;
 	text-align:center;
 	color: white;
+	float:left;
+	margin-left: 20px;
 }
 
 .blankbox{
