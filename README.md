@@ -24,10 +24,10 @@ The button labeled `Comparison` directs the page to a carousel of the graphs.  S
 The button labeled `Data` directs the page to tabular data. 
 ![Data](https://github.com/knishina/Latitude_Analysis/blob/master/Images/04.png)
 
-<br />
-
 #### Visualizations.
 The section labeled `Visualizations` has the four graphs displayed.  Upon hovering over the graph, a green label will appear with the corresponding plot label as seen in the `Plots` drop-down menu.  Each of the graphs can be selected and serves as another navigation tool to get to the analysis.
+
+<br />
 
 ### License.
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/knishina/Latitude_Analysis/blob/master/LICENSE) file for details.
