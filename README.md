@@ -1,6 +1,7 @@
 # Latitude_Analysis
 
 ## Link for the project: https://knishina.github.io/Latitude_Analysis/
+## Link for data analysis and visualization: https://github.com/knishina/uc_berkeley_bootcamp/tree/master/HW06_APIs
 ![Weather Patterns](https://github.com/knishina/Latitude_Analysis/blob/master/Resources/world_map.gif)
 
 ### Summary.
